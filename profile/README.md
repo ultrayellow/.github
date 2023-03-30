@@ -56,6 +56,26 @@ flowchart TD
 
 </details>
 
+## [ft-api-requester](https://github.com/ultrayellow/ft-api-requester)
+### 상태
+:yellow_circle: 부분 사용 가능
+1. :small_blue_diamond: 기본적인 rate limit 관리 구현
+1. :small_orange_diamond: retry 로직 미구현
+1. :small_orange_diamond: validation 로직 미구현
+
+<details>
+<summary>더 보기</summary>
+
+### 의도
+- 42 인트라 api로 rate limit을 준수하며 요청을 빠르고 편하게 보낼 수 있도록 한다.
+
+### 목표
+- type 안정성을 보장한다.
+- strict eslint를 충족시킨다.
+- 요청을 효율적으로 보내면서 실패율을 최소화한다.
+
+</details>
+
 ## [shared_ptr](https://github.com/ultrayellow/shared_ptr)
 ### 상태
 :green_circle: 사용 가능 (라이브러리)
