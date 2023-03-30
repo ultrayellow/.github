@@ -1,5 +1,8 @@
 # [ultrayellow](https://github.com/ultrayellow)
 
+<details open>
+<summary></summary>
+
 42에서 학습을 진행하다보면 항상 일관되게 과제나 평가를 하고 앉아있기는 몹시 어려운 일이다.
 주변의 동료들과 자잘한 일상 속의 이야기를 나누면서 피로한 뇌를 쉬게 해주어야 한다.
 아니면 물론 개포 클러스터의 1층에 내려가서 마리오카트나 마리오파티를 하는 것도 좋다.
@@ -51,9 +54,13 @@ flowchart TD
 
 개중에는 간혹 재미있는 프로젝트도 있었지만, 만들 당시에는 저장해야할 가치까지는 느끼지 못했기 때문에 소실되었고, 이제는 찾을 수 없다. 계속해서 비슷한 아쉬움이 남는 것을 느꼈기에 이제부터라도 그렇게 만들던 프로젝트들만 모아두는 곳이 필요했고, 그렇게 만든게 바로 이 **ultrayellow**다.
 
+</details>
+
 ## [shared_ptr](https://github.com/ultrayellow/shared_ptr)
 ### 상태
 :green_circle: 사용 가능 (라이브러리)
+<details>
+<summary>더 보기</summary>
 
 ### 의도
 - new와 delete 키워드 없이도 메모리 동적 할당을 한다.
@@ -137,6 +144,8 @@ void foo(uy::shared_ptr<void> p_void)
 | :x: contiguous counted                | 컨트롤 블록 연속성 없음 |
 | :x: (C++17, C++20) array type         | 배열 타입 미지원 |
 
+</details>
+
 ## [magic-conch](https://github.com/ultrayellow/magic-conch)
 ![magic_conch](https://user-images.githubusercontent.com/101191908/213886637-586cab00-a75c-4e97-b4cd-2bac600730f2.gif)
 > 마법의 소라고동
@@ -149,6 +158,9 @@ void foo(uy::shared_ptr<void> p_void)
 1. :small_orange_diamond: 환경변수 변경 미구현
 1. :small_orange_diamond: expansion (quote, \$USER, \$? 등) 미구현
 1. :small_orange_diamond: glob (\*) 미구현
+
+<details>
+<summary>더 보기</summary>
 
 ### 의도
 - 42의 과제 minishell에 대한 이해도를 충분히 높이기 위해서 시작했다.
@@ -170,6 +182,8 @@ void foo(uy::shared_ptr<void> p_void)
 - norminette도 없고, C++의 스탠다드 라이브러리를 잘만 활용하면 쉬울줄 알았다.
 - **그러나 다시 한번 느꼈는데, 미니셸은 결코 만만한 과제가 아니다.** 다시는 미니셸을 얕보지 마라.
 
+</details>
+
 ## [cowardly-excuse](https://github.com/ultrayellow/cowardly-excuse)
 ![coward](https://user-images.githubusercontent.com/101191908/213885406-1a72b3a1-07ab-4568-9445-a026115f469a.png)
 > 비겁한 자를 위한 변명
@@ -184,6 +198,9 @@ void foo(uy::shared_ptr<void> p_void)
 1. :small_orange_diamond: IRC 요청에 따른 처리 및 응답
 1. :small_orange_diamond: `nc -C localhost`로 접속해서 테스트하지 않는 이상 IRC로서의 동작은 불가능함.
 
+<details>
+<summary>더 보기</summary>
+
 ### 의도
 - 42의 팀 과제 ft_irc를 진행하기에 앞서서 선행 기반 지식을 만들기 위하여 시작했다.
 
@@ -196,6 +213,13 @@ void foo(uy::shared_ptr<void> p_void)
 - 이 프로젝트는 놀이터이자 마음의 안식처이므로 싱글스레디드로 만들 것이다.
 - 혹자는 이에 대해 '혹시 슈퍼 겁쟁이신가요?'라는 평을 남겼다.
 
+</details>
+
+### 계획 중
+
+<details>
+<summary>더 보기</summary>
+
 ## mlx_pushpush
 
 ### 상태
@@ -205,3 +229,5 @@ void foo(uy::shared_ptr<void> p_void)
 
 ### 상태
 :black_circle: 계획중, 시작 안함
+
+</details>
