@@ -56,6 +56,34 @@ flowchart TD
 
 </details>
 
+## [Antinorm](https://github.com/ultrayellow/antinorm)
+
+> Norm을 우회하는 42가지 방법.
+
+### 상태
+
+:yellow_circle: 약 2.38% 완료.
+
+<details>
+
+<summary>더 보기</summary>
+
+### 의도
+
+- 42의 의도적으로 불친절한 서브젝트에 대해서 생각해 봤을 때 사실 Norm은 그 자체로 유용하다기보다는, 우회하는 법을 개발하면서 더 많은 것을 알아가라는 42의 깊은 철학이 담겨있지 않을까? ~~적어도 나는 그렇게 생각하기로 했다.~~
+
+### 목표
+
+Norm을 우회하는 42가지 방법을 개발하고, 다음과 같은 측면에서 평가한다.
+
+1. 이식성
+1. 개발 난이도
+1. 사용 난이도
+1. 응용 가능성
+1. 인간 Norm 통과 가능성
+
+</details>
+
 ## [ft-api-requester](https://github.com/ultrayellow/ft-api-requester)
 ### 상태
 :yellow_circle: 부분 사용 가능
