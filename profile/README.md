@@ -84,10 +84,14 @@ Norm을 우회하는 42가지 방법을 개발하고, 다음과 같은 측면에
 
 </details>
 
-## [ft-api-requester](https://github.com/ultrayellow/ft-api-requester)
+## [La-Seine](https://github.com/ultrayellow/La-Seine)
+
+> 고개를 들어 프랑스를 보라
+
 ### 상태
 :yellow_circle: 부분 사용 가능
 1. :small_blue_diamond: 기본적인 rate limit 관리 구현
+1. :small_blue_diamond: [npm](https://www.npmjs.com/package/la-seine) 에서 설치 가능
 1. :small_orange_diamond: retry 로직 미구현
 1. :small_orange_diamond: validation 로직 미구현
 
@@ -95,7 +99,7 @@ Norm을 우회하는 42가지 방법을 개발하고, 다음과 같은 측면에
 <summary>더 보기</summary>
 
 ### 의도
-- 42 인트라 api로 rate limit을 준수하며 요청을 빠르고 편하게 보낼 수 있도록 한다.
+- TypeScript (혹은 JavaScript) 로 42에 api 요청을 보내다 보면, 믿기지 않을 정도로 느린 endpoint 들이 있다. 물론 요청을 보내고 산책 한 번 다녀오는 것도 좋은 일이 될 수 있지만, 그러한 야외 활동 등 식사, 수면, 그리고 코딩 외의 모든 일들에 대해 치명적인 위협이나 거부감을 느끼는 사람들을 위해, 1시간 걸릴 일을 10분만에 할 수 있도록 해보려 한다.
 
 ### 목표
 - type 안정성을 보장한다.
